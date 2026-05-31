@@ -159,3 +159,85 @@ footer .small {
 main {
     flex: 1;
 }
+
+/* Selected Work Cards */
+.cs-card {
+    background: #1c1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #2a2a2a;
+}
+
+.cs-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+    border-color: #444;
+}
+
+.cs-card-img {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+}
+
+.cs-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.cs-card:hover .cs-card-img img {
+    transform: scale(1.05);
+}
+
+.cs-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: var(--primary-color);
+    color: #fff;
+    font-family: var(--font-ui);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.cs-card-body {
+    padding: 1.25rem 1.5rem;
+}
+
+.cs-card-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.cs-card-sub {
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 0.85rem;
+    font-weight: 300;
+}
+
+.cs-card-cta {
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    letter-spacing: 0.04em;
+    transition: letter-spacing 0.3s ease;
+}
+
+.cs-card:hover .cs-card-cta {
+    letter-spacing: 0.08em;
+}
