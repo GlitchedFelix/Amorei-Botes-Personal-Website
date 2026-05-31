@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malluable — Case Study 01 | Amorei Botes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #0f0f11;
+        }
+
+        .cs-header {
+            background-color: #0d2a47;
+            padding: 1.25rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .cs-header-accent {
+            height: 3px;
+            background-color: #1a5276;
+        }
+
+        .cs-title {
+            font-family: 'Jost', sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: #fff;
+            margin: 0;
+            letter-spacing: 0.02em;
+            text-transform: none;
+        }
+
+        .cs-subtitle {
+            font-family: 'Jost', sans-serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 0;
+        }
+
+        .cs-header-right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .cs-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.75);
+            letter-spacing: 0.08em;
+        }
+
+        .cs-divider {
+            width: 2px;
+            height: 2.5rem;
+            background: repeating-linear-gradient(to bottom,
+                    rgba(255, 255, 255, 0.45) 0px,
+                    rgba(255, 255, 255, 0.45) 4px,
+                    transparent 4px,
+                    transparent 8px);
+        }
+
+        .cs-number {
+            font-family: 'Jost', sans-serif;
+            font-weight: 700;
+            font-size: 2.75rem;
+            color: #fff;
+            line-height: 1;
+        }
+
+        .cs-slides {
+            padding: 2.5rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .cs-slide {
+            width: 100%;
+            max-width: 1100px;
+            padding: 0 1.5rem;
+        }
+
+        .cs-slide img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 4px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        }
+
+        .cs-footer-bar {
+            background-color: #0a0a0c;
+            border-top: 1px solid #2a2a2a;
+            padding: 1.25rem 2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top border-bottom border-secondary">
+        <div class="container">
+            <a class="navbar-brand fw-bold tracking-wide" href="index.html">AMOREI BOTES<span class="text-primary">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html#work">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="cs-header">
+        <div>
+            <p class="cs-title">Malluable</p>
+            <p class="cs-subtitle">Logo Design</p>
+        </div>
+        <div class="cs-header-right">
+            <span class="cs-label">Case Study</span>
+            <div class="cs-divider"></div>
+            <span class="cs-number">01</span>
+        </div>
+    </div>
+    <div class="cs-header-accent"></div>
+
+    <div class="cs-slides">
+        <div class="cs-slide">
+            <img src="case_study_1/1.jpg" alt="Malluable — Full Branding Package">
+        </div>
+        <div class="cs-slide">
+            <img src="case_study_1/2.jpg" alt="Malluable — Colour Exploration & Concepts">
+        </div>
+    </div>
+
+    <div class="cs-footer-bar">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a href="index.html#work" class="btn btn-outline-light btn-sm rounded-pill px-4">&larr; Back to Work</a>
+            <span class="text-secondary small">Case Study 01 &mdash; Malluable</span>
+        </div>
+    </div>
+
+    <footer class="bg-black py-4 border-top border-secondary">
+        <div class="container text-center">
+            <p class="text-secondary small mb-1">&copy; 2026 Glitched Designs. All rights reserved.</p>
+            <p class="text-secondary small mb-0">Crafted with precision.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
